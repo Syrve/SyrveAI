@@ -10,19 +10,21 @@ This repository contains skills, scripts, prompts, guidelines, documentation, an
 
 
 
-SyrveAI/ 
+SyrveAI/
 
-├── skills   # Collections of ready-to-use skills for LLMs 
+├── skills   # Collections of ready-to-use skills for LLMs
 
-&nbsp;	├── scripts/ # Utility scripts for automating tasks 
+ 	├── scripts/ # Utility scripts for automating tasks
 
-&nbsp;	├── prompts/ # Prompt libraries and prompt engineering examples 
+ 	├── prompts/ # Prompt libraries and prompt engineering examples
 
-&nbsp;	├── guidelines/ # Best practices, workflow instructions, and guides 
+ 	├── guidelines/ # Best practices, workflow instructions, and guides
 
-&nbsp;	├── docs/ # Project documentation and technical references
+ 	├── docs/ # Project documentation and technical references
 
-&nbsp;	├── artifacts/ # Additional resources and supporting files 
+ 	├── artifacts/ # Additional resources and supporting files
+
+&nbsp;	├── links.md / # some links for use with ai
 
 └── README.md
 
@@ -40,17 +42,17 @@ SyrveAI is a repository designed to help developers, researchers, and enthusiast
 
 
 
-\- Skills for various LLM applications  
+\- Skills for various LLM applications
 
-\- Automation scripts  
+\- Automation scripts
 
-\- Prompt examples and engineering techniques  
+\- Prompt examples and engineering techniques
 
-\- Guidelines for usage and development  
+\- Guidelines for usage and development
 
-\- Extensive documentation  
+\- Extensive documentation
 
-\- Other helpful artifacts  
+\- Other helpful artifacts
 
 
 
