@@ -12,9 +12,7 @@ This repository contains skills, scripts, prompts, guidelines, documentation, an
 
 SyrveAI/ 
 
-├── skills
-
-&nbsp;	/ # Collections of ready-to-use skills for LLMs 
+├── skills   # Collections of ready-to-use skills for LLMs 
 
 &nbsp;	├── scripts/ # Utility scripts for automating tasks 
 
