@@ -1,0 +1,4 @@
+{
+  // Restart MCP servers automatically after mcp.json changes.
+  "chat.mcp.autostart": true
+}

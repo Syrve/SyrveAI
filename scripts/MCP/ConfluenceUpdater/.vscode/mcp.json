@@ -1,0 +1,63 @@
+{
+    // Minimal workspace MCP configuration for self-hosted Jira Data Center / Server.
+    // Chosen package: @atlassian-dc-mcp/jira
+    // Why this package: it supports issue read/update and customFields on Jira Data Center.
+    // This workspace also uses the companion Confluence package for wiki search/content access.
+    // For GitLab merge request lookup we use a minimal server that exposes a raw GitLab API tool.
+    //
+    // Recommended tools to keep enabled in the chat tool picker for this workspace:
+    // - jira_searchIssues: main read tool via JQL; can also request names/schema expansions.
+    // - jira_getIssue: read one issue, including specific fields or customfield_* ids.
+    // - jira_updateIssue: update standard fields and custom fields through customFields.
+    // - jira_getTransitions: inspect allowed workflow transitions before status changes.
+    // - jira_transitionIssue: change status when Jira workflow requires a transition.
+    // - confluence_searchContent: search pages/blog posts via CQL.
+    // - confluence_getContent: read one page by content id.
+    // - confluence_searchSpace: search spaces by name/description.
+    // - Gitlab Raw API Tool: call GitLab REST endpoints for merge request search and commit lookup.
+    //
+    // Keep disabled by default unless really needed:
+    // - jira_createIssue: creates new issues.
+    // - jira_postIssueComment: writes comments.
+    // - jira_getIssueComments: reads comments, but is not required for the minimal workflow.
+    // - confluence_createContent: creates new pages/blog posts.
+    // - confluence_updateContent: updates existing pages/blog posts.
+    "servers": {
+        "jiraSyrve": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@atlassian-dc-mcp/jira@0.16.0"
+            ],
+            "envFile": "${workspaceFolder}/.env.jira-syrve"
+        },
+        "jiraIiko": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@atlassian-dc-mcp/jira@0.16.0"
+            ],
+            "envFile": "${workspaceFolder}/.env.jira-iiko"
+        },
+        "confluenceIiko": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@atlassian-dc-mcp/confluence@0.16.0"
+            ],
+            "envFile": "${workspaceFolder}/.env.confluence-iiko"
+        },
+        "gitlabIiko": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@zephyr-mcp/gitlab"
+            ],
+            "envFile": "${workspaceFolder}/.env.gitlab-iiko"
+        }
+    }
+}
