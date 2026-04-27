@@ -1,0 +1,85 @@
+{
+  // Shortlist agreed for further analysis and usage.
+  // Fields with the same semantic role and the same id in both Jira instances are kept in commonFields.
+  // Team exists in two variants and both ids are common across both Jira instances, so both stay here.
+  "commonFields": [
+    {
+      "id": "customfield_10021",
+      "name": "Start Date",
+      "type": "date",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_10023",
+      "name": "Warnings",
+      "type": "string",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_10154",
+      "name": "Verified",
+      "type": "string",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_10330",
+      "name": "Team",
+      "type": "option",
+      "usedIn": ["jiraSyrve", "jiraIiko"],
+      "note": "Classic select-based Team field."
+    },
+    {
+      "id": "customfield_10741",
+      "name": "Commitment level",
+      "type": "option",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_10543",
+      "name": "Story Points",
+      "type": "number",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_11440",
+      "name": "Sprint",
+      "type": "array",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_14040",
+      "name": "Brand/s",
+      "type": "array",
+      "usedIn": ["jiraSyrve", "jiraIiko"]
+    },
+    {
+      "id": "customfield_14344",
+      "name": "Team",
+      "type": "any",
+      "usedIn": ["jiraSyrve", "jiraIiko"],
+      "note": "Atlassian Teams-based Team field."
+    }
+  ],
+  "jiraIikoOnly": [
+    {
+      "id": "customfield_10222",
+      "name": "Важность",
+      "type": "option"
+    },
+    {
+      "id": "customfield_10940",
+      "name": "Code reviewer",
+      "type": "user"
+    },
+    {
+      "id": "customfield_12441",
+      "name": "Epic",
+      "type": "array"
+    }
+  ],
+  "jiraSyrveOnly": [],
+  "sourceFiles": {
+    "jiraSyrve": "reports/syrve-custom-fields.json",
+    "jiraIiko": "reports/iiko-custom-fields.json"
+  }
+}

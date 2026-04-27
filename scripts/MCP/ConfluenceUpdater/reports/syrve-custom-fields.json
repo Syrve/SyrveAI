@@ -1,0 +1,457 @@
+[
+    {
+        "id":  "customfield_10020",
+        "name":  "Sequential",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:readonlyfield"
+    },
+    {
+        "id":  "customfield_10021",
+        "name":  "Start Date",
+        "description":  null,
+        "type":  "date",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+    },
+    {
+        "id":  "customfield_10023",
+        "name":  "Warnings",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:readonlyfield"
+    },
+    {
+        "id":  "customfield_10150",
+        "name":  "ReReview counter",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:float"
+    },
+    {
+        "id":  "customfield_10152",
+        "name":  "Detected",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+    },
+    {
+        "id":  "customfield_10154",
+        "name":  "Verified",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+    },
+    {
+        "id":  "customfield_10211",
+        "name":  "Tools",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.jira.toolkit:supporttools"
+    },
+    {
+        "id":  "customfield_10251",
+        "name":  "Original Estimate",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.jira.toolkit:originalestimate"
+    },
+    {
+        "id":  "customfield_10267",
+        "name":  "Code commiter",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_10280",
+        "name":  "Participants",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.jira.toolkit:participants"
+    },
+    {
+        "id":  "customfield_10300",
+        "name":  "Замечания по тестированию",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+    },
+    {
+        "id":  "customfield_10330",
+        "name":  "Team",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:select"
+    },
+    {
+        "id":  "customfield_10340",
+        "name":  "Global Rank (Obsolete)",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-global-rank"
+    },
+    {
+        "id":  "customfield_10440",
+        "name":  "Global Rank",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-global-rank"
+    },
+    {
+        "id":  "customfield_10540",
+        "name":  "Flagged",
+        "description":  null,
+        "type":  "array",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+    },
+    {
+        "id":  "customfield_10543",
+        "name":  "Story Points",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:float"
+    },
+    {
+        "id":  "customfield_10544",
+        "name":  "Business Value",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:float"
+    },
+    {
+        "id":  "customfield_10545",
+        "name":  "Release Version History",
+        "description":  null,
+        "type":  "version",
+        "customType":  "com.pyxis.greenhopper.jira:greenhopper-releasedmultiversionhistory"
+    },
+    {
+        "id":  "customfield_10740",
+        "name":  "Comments counter",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.jira.toolkit:comments"
+    },
+    {
+        "id":  "customfield_10741",
+        "name":  "Commitment level",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:select"
+    },
+    {
+        "id":  "customfield_10941",
+        "name":  "Arch reviewer",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_11140",
+        "name":  "Rank (Obsolete)",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-global-rank"
+    },
+    {
+        "id":  "customfield_11141",
+        "name":  "Rank",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-global-rank"
+    },
+    {
+        "id":  "customfield_11240",
+        "name":  "LastClosedUser2",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_11340",
+        "name":  "LastResolutionUser2",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_11440",
+        "name":  "Sprint",
+        "description":  null,
+        "type":  "array",
+        "customType":  "com.pyxis.greenhopper.jira:gh-sprint"
+    },
+    {
+        "id":  "customfield_11441",
+        "name":  "Epic Link",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-epic-link"
+    },
+    {
+        "id":  "customfield_11442",
+        "name":  "Epic Status",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.pyxis.greenhopper.jira:gh-epic-status"
+    },
+    {
+        "id":  "customfield_11443",
+        "name":  "Epic Name",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.pyxis.greenhopper.jira:gh-epic-label"
+    },
+    {
+        "id":  "customfield_11444",
+        "name":  "Epic Colour",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.pyxis.greenhopper.jira:gh-epic-color"
+    },
+    {
+        "id":  "customfield_11540",
+        "name":  "Tester in branch",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_11640",
+        "name":  "Customer",
+        "description":  null,
+        "type":  "array",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:labels"
+    },
+    {
+        "id":  "customfield_11740",
+        "name":  "Rank",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-lexo-rank"
+    },
+    {
+        "id":  "customfield_11741",
+        "name":  "Global Rank",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.pyxis.greenhopper.jira:gh-lexo-rank"
+    },
+    {
+        "id":  "customfield_12141",
+        "name":  "Sprint_OLD",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:select"
+    },
+    {
+        "id":  "customfield_12240",
+        "name":  "User Story",
+        "description":  null,
+        "type":  "string",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+    },
+    {
+        "id":  "customfield_12540",
+        "name":  "Development",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummary"
+    },
+    {
+        "id":  "customfield_12640",
+        "name":  "issueFunction",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.onresolve.jira.groovy.groovyrunner:jqlFunctionsCustomFieldType"
+    },
+    {
+        "id":  "customfield_12840",
+        "name":  "Program Increment",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.easyagile.programs:program-increment-field"
+    },
+    {
+        "id":  "customfield_12841",
+        "name":  "Program",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.easyagile.programs:program-field"
+    },
+    {
+        "id":  "customfield_12940",
+        "name":  "Structure Index Monitor",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.almworks.jira.structure:index-monitor-cf-type"
+    },
+    {
+        "id":  "customfield_13541",
+        "name":  "Rice Score",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.onresolve.jira.groovy.groovyrunner:scripted-field"
+    },
+    {
+        "id":  "customfield_13545",
+        "name":  "RICE: Reach",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:float"
+    },
+    {
+        "id":  "customfield_13546",
+        "name":  "RICE: Impact",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:float"
+    },
+    {
+        "id":  "customfield_13554",
+        "name":  "Product",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:select"
+    },
+    {
+        "id":  "customfield_13741",
+        "name":  "Time Before First Response",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.innovalog.jmcf.jira-misc-custom-fields:calculated-duration-field"
+    },
+    {
+        "id":  "customfield_13940",
+        "name":  "Specified by",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_14040",
+        "name":  "Brand/s",
+        "description":  null,
+        "type":  "array",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+    },
+    {
+        "id":  "customfield_14140",
+        "name":  "Direction",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:select"
+    },
+    {
+        "id":  "customfield_14141",
+        "name":  "Queue",
+        "description":  null,
+        "type":  "option",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:select"
+    },
+    {
+        "id":  "customfield_14144",
+        "name":  "Time of resolution",
+        "description":  null,
+        "type":  "date",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+    },
+    {
+        "id":  "customfield_14145",
+        "name":  "Time of arrival",
+        "description":  null,
+        "type":  "date",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+    },
+    {
+        "id":  "customfield_14240",
+        "name":  "Systems analyst",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_14241",
+        "name":  "Systems analyst",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_14242",
+        "name":  "Systems analyst",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_14244",
+        "name":  "Caused by Code Commiter",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.onresolve.jira.groovy.groovyrunner:scripted-field"
+    },
+    {
+        "id":  "customfield_14340",
+        "name":  "Parent Link",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.jpo:jpo-custom-field-parent"
+    },
+    {
+        "id":  "customfield_14341",
+        "name":  "Target start",
+        "description":  null,
+        "type":  "date",
+        "customType":  "com.atlassian.jpo:jpo-custom-field-baseline-start"
+    },
+    {
+        "id":  "customfield_14342",
+        "name":  "Target end",
+        "description":  null,
+        "type":  "date",
+        "customType":  "com.atlassian.jpo:jpo-custom-field-baseline-end"
+    },
+    {
+        "id":  "customfield_14343",
+        "name":  "Original story points",
+        "description":  null,
+        "type":  "number",
+        "customType":  "com.atlassian.jpo:jpo-custom-field-original-story-points"
+    },
+    {
+        "id":  "customfield_14344",
+        "name":  "Team",
+        "description":  null,
+        "type":  "any",
+        "customType":  "com.atlassian.teams:rm-teams-custom-field-team"
+    },
+    {
+        "id":  "customfield_14440",
+        "name":  "Work Start Time",
+        "description":  null,
+        "type":  "datetime",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:datetime"
+    },
+    {
+        "id":  "customfield_14441",
+        "name":  "Working User",
+        "description":  null,
+        "type":  "user",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:userpicker"
+    },
+    {
+        "id":  "customfield_14540",
+        "name":  "Incident started (CET)",
+        "description":  null,
+        "type":  "datetime",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:datetime"
+    },
+    {
+        "id":  "customfield_14541",
+        "name":  "Incident fixed (CET)",
+        "description":  null,
+        "type":  "datetime",
+        "customType":  "com.atlassian.jira.plugin.system.customfieldtypes:datetime"
+    }
+]

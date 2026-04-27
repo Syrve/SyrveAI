@@ -1,0 +1,91 @@
+{
+  // Human-readable minimal tool allowlist for this workspace.
+  // VS Code does not restrict MCP tools directly in mcp.json,
+  // so use this list when enabling tools in the Chat tool picker
+  // or when creating prompt/agent frontmatter with explicit tools.
+  "servers": [
+    "jiraSyrve",
+    "jiraIiko",
+    "confluenceIiko",
+    "gitlabIiko"
+  ],
+  "recommendedTools": {
+    "jiraSyrve": [
+      // Read one issue with explicit fields, for example ["summary", "status", "customfield_12345"].
+      "jira_getIssue",
+
+      // Read comments for brief generation and publication workflows.
+      "jira_getIssueComments"
+    ],
+    "jiraIiko": [
+      // Keep disabled for SWEB-specific workflows unless a task explicitly targets this Jira.
+    ],
+    "confluenceIiko": [
+      // Read one page or blog post by content id.
+      "confluence_getContent",
+
+      // Update the Syrve merge request table page.
+      "confluence_updateContent"
+    ],
+    "gitlabIiko": [
+      // Minimal GitLab read-only entry point. Use it to call /projects/:id/merge_requests.
+      "Gitlab Raw API Tool"
+    ]
+  },
+  "disabledByDefault": [
+    // Not needed for the minimal scenario.
+    "jira_createIssue",
+
+    // Not needed for the SWEB publication workflow.
+    "jira_searchIssues",
+
+    // Not needed for the SWEB publication workflow.
+    "jira_updateIssue",
+
+    // Not needed for the SWEB publication workflow.
+    "jira_getTransitions",
+
+    // Not needed for the SWEB publication workflow.
+    "jira_transitionIssue",
+
+    // Not needed unless you want to write comments.
+    "jira_postIssueComment",
+
+    // Not needed unless you want to create new Confluence content.
+    "confluence_createContent",
+
+    // Not needed for the SWEB publication workflow.
+    "confluence_searchContent",
+
+    // Not needed for the SWEB publication workflow.
+    "confluence_searchSpace",
+
+    // Not needed for the SWEB publication workflow.
+    "Gitlab Search Project Details Tool",
+
+    // Not needed for read-only MR lookup.
+    "Gitlab Accept MR Tool",
+
+    // Not needed for read-only MR lookup.
+    "Gitlab Create MR Comment Tool",
+
+    // Not needed for read-only MR lookup.
+    "Gitlab Create MR Tool",
+
+    // Not needed for read-only MR lookup.
+    "Gitlab Get User Tasks Tool",
+
+    // Not needed for read-only MR lookup.
+    "Gitlab Search User Projects Tool",
+
+    // Not needed for read-only MR lookup.
+    "Gitlab Update MR Tool"
+  ],
+  "customFieldNotes": [
+    "Use raw Jira field ids such as customfield_12345.",
+    "For SWEB publication workflows in jiraSyrve, Code commiter is customfield_10267 and takes priority over assignee as the responsible person.",
+    "When both Jira servers are enabled, tools from both instances appear separately under their server names in VS Code.",
+    "Confluence updates for the Syrve MR table use confluence_getContent plus confluence_updateContent against page id 158643185.",
+    "GitLab MR lookup uses @zephyr-mcp/gitlab. The main read-only workflow is through Gitlab Raw API Tool against the self-hosted GitLab instance and project id 15 (iikoWeb/iikoWeb)."
+  ]
+}
